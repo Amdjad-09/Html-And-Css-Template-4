@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="csstemp4/normalize.css">
+    <link rel="stylesheet" href="csstemp4/all.min.css">
+    <link rel="stylesheet" href="csstemp4/framework.css">
+    <link rel="stylesheet" href="csstemp4/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar p-20 bg-white p-rel">
+            <h3 class="p-rel mt-0 tex-cen">Elzero</h3>
+            <ul>
+                <li >
+                <a class="fn-sz-14 tran-300 p-10 rad-6 d-block co-b d-flex ali-cen" href="index.html">
+                    <i class="fa-regular fa-chart-bar fa-fw"></i>
+                    <span class="d-none-m">Dashboard</span>
+                </a>
+            </li>
+                <li>
+                <a class="fn-sz-14 tran-300 p-10 rad-6 d-block co-b d-flex ali-cen active" href="settings.html">
+                    <i class="fa-solid fa-gear fa-fw"></i>
+                    <span class="d-none-m">Settings</span>
+                </a>
+            </li>
+                <li>
+                    <a class="fn-sz-14 tran-300 p-10 rad-6 d-block co-b d-flex ali-cen" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="d-none-m">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="fn-sz-14 tran-300 p-10 rad-6 d-block co-b d-flex ali-cen" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="d-none-m">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="fn-sz-14 tran-300 p-10 rad-6 d-block co-b d-flex ali-cen" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="d-none-m">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="fn-sz-14 tran-300 p-10 rad-6 d-block co-b d-flex ali-cen" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="d-none-m">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="fn-sz-14 tran-300 p-10 rad-6 d-block co-b d-flex ali-cen" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="d-none-m">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="fn-sz-14 tran-300 p-10 rad-6 d-block co-b d-flex ali-cen" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="d-none-m">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full flow-hi">
+            <div class="head bg-white p-15 d-flex f-cen-bet">
+                <div class="search p-rel ">
+                    <input type="search" placeholder="Type A Keyword" class="p-10 fn-sz-13 tran-300 ccc-1 rad-10" name="keywork" >
+                </div>
+                <div class="profile d-flex ali-cen">
+                    <span class="notification p-rel fn-sz-20">
+                        <i class="fa-regular fa-bell "></i>
+                    </span>
+                    <img src="img4/avatar.png" alt="">
+                </div>
+            </div>
+            <h1 class="p-rel">Settings</h1>
+            <div class="setting-page m-20 g-20 d-grid">
+                <div class="site-control p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-10">Site Control</h2>
+                    <p class="co-grey mt-0 mb-20 fn-sz-15">Control The Website If There Is Maintenance</p>
+                    <div class="web-control d-flex f-cen-bet mb-20">
+                        <div class="text f-g">
+                            <span class="d-block mb-5">Website Control</span>
+                            <span class="co-grey fn-sz-13">Open/Close Website And Type The Reason</span>
+                        </div>
+                        <label>
+                            <input class="switch-button" type="checkbox" checked>
+                            <div class="switch-div"></div>
+                        </label>
+                    </div>
+                    <textarea class="w-full fn-sz-12 co-grey ccc-1 rad-10 p-10" spellcheck="false" placeholder="Close Message Content"></textarea>
+                </div>
+                <div class="general-info p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-10">General Info</h2>
+                    <p class="co-grey mt-0 mb-20 fn-sz-15">General Information About Your Account</p>
+                    <form action="">
+                        <label for="f-name" class="d-block co-grey fn-sz-14 mb-10">First Name</label>
+                        <input id="f-name" class="f-name w-full mb-15 fn-sz-13 co-grey ccc-1 p-10 rad-6" placeholder="First Name" type="text">                    
+                        <label for="l-name" class="d-block co-grey fn-sz-14 mb-10">Last Name</label>
+                        <input id="l-name" class="f-name w-full mb-15 fn-sz-13 co-grey ccc-1 p-10 rad-6" placeholder="Last Name" type="text">
+                        <label for="l-name" class="d-block co-grey fn-sz-14 mb-10">Email</label>
+                        <div class="d-flex ali-cen">
+                            <input id="l-name" class="f-name f-g w-full fn-sz-13 co-grey ccc-1 p-10 rad-6" disabled placeholder="o@nn.sa" type="text">
+                            <a href="#" class="co-blue ml-15">Change</a>
+                        </div>         
+                    </form>
+                </div>
+                <div class="security-info bg-white rad-10 p-20">
+                    <h2 class="mt-0 mb-10">Security Info</h2>
+                    <p class="co-grey mt-0 mb-20 fn-sz-15">Security Information About Your Account</p>
+                    <div class="security-row d-flex f-cen-bet pb-15 mb-15 eee-b-1">
+                        <div class="text">
+                            <span class="d-block">Password</span>
+                            <p class="mt-5 fn-sz-13 co-grey">Last Change On 25/10/2021</p>
+                        </div>
+                        <a href="#" class="co-white bg-blue b-shap rad-6">Change</a>
+                    </div>
+                    <div class="security-row d-flex f-cen-bet pb-15 mb-15 eee-b-1">
+                        <div class="text">
+                            <span class="d-block">Two-Factor Authentication</span>
+                            <p class="mt-5 fn-sz-13 co-grey">Enable/Disable The Feature</p>
+                        </div>
+                        <label>
+                            <input type="checkbox" class="switch-button">
+                            <div class="switch-div"></div>
+                        </label>
+                    </div> 
+                    <div class="security-row d-flex f-cen-bet pb-15">
+                        <div class="text">
+                            <span class="d-block">Devices</span>
+                            <p class="mt-5 fn-sz-13 co-grey">Check The Login Devices List</p>
+                        </div>
+                        <a href="#" class="co-b bg-eee b-shap rad-6">Devices</a>
+                    </div>  
+                </div>
+                <div class="setting-social bg-white p-20 rad-10">
+                    <h2 class="mt-0 mb-10">Social Info</h2>
+                    <p class="co-grey mt-0 mb-20 fn-sz-15">Social Media Information</p>
+                    <div class="box bg-eee rad-6 d-flex ali-cen co-grey ccc-1 mb-15 f-row-rev">
+                        <input type="text" class="b-none w-full bg-eee fn-sz-13 pl-10" placeholder="Twitter Username" >
+                        <i class="fa-brands fa-twitter tran-300 p-10 d-flex f-cen"></i>
+                    </div>
+                    <div class="box bg-eee rad-6 d-flex ali-cen co-grey ccc-1 mb-15 f-row-rev">
+                        <input type="text" class="b-none w-full bg-eee fn-sz-13 pl-10" placeholder="Facebook Username" >
+                        <i class="fa-brands fa-facebook-f tran-300 p-10 d-flex f-cen"></i>
+                    </div>
+                    <div class="box bg-eee rad-6 d-flex ali-cen co-grey ccc-1 mb-15 f-row-rev">
+                        <input type="text" class="b-none w-full bg-eee fn-sz-13 pl-10" placeholder="Youtube Username" >
+                        <i class="fa-brands fa-youtube tran-300 p-10 d-flex f-cen"></i>
+                    </div>
+                    <div class="box bg-eee rad-6 d-flex ali-cen co-grey ccc-1 f-row-rev">
+                        <input type="text" class="b-none w-full bg-eee fn-sz-13 pl-10" placeholder="Linkedin Username" >
+                        <i class="fa-brands fa-linkedin-in tran-300 p-10 d-flex f-cen"></i>
+                    </div>
+                </div>
+                <div class="widgets bg-white p-20 rad-10">
+                    <h2 class="mt-0 mb-10">Widgets Control</h2>
+                    <p class="co-grey mt-0 mb-20 fn-sz-15">Show/Hide Widgets</p>
+                    <form class="pl-10">
+                            <label class="d-flex ali-cen pointer w-fit mb-20">
+                                <input class="mr-15 p-rel" type="checkbox" checked>
+                                Quick Draft
+                            </label>
+                            <label class="d-flex ali-cen pointer w-fit mb-20">
+                                <input class="mr-15 p-rel" type="checkbox" checked>
+                                Yearly Targets
+                            </label>
+                            <label class="d-flex ali-cen pointer w-fit mb-20">
+                                <input class="mr-15 p-rel" type="checkbox">
+                                Tickets Statistics
+                            </label>
+                            <label class="d-flex ali-cen pointer w-fit mb-20" >
+                                <input class="mr-15 p-rel" type="checkbox" checked>
+                                Latest News
+                            </label>
+                            <label class="d-flex ali-cen pointer w-fit mb-20">
+                                <input class="mr-15 p-rel" type="checkbox" checked>
+                                Latest Tasks
+                            </label>
+                            <label class="d-flex ali-cen pointer w-fit mb-20">
+                                <input class="mr-15 p-rel" type="checkbox" checked>
+                                Top Search Items
+                            </label>
+                    </form>
+                </div>
+                <div class="backup bg-white p-20 rad-10">
+                    <h2 class="mt-0 mb-10">Backup Manager</h2>
+                    <p class="co-grey mt-0 mb-20 fn-sz-15">Control Backup Time And Location</p>
+                    <div class="date mb-15 pl-10 d-flex ali-cen">
+                        <input type="radio" name="time" id="one" checked>
+                        <label for="one" class="p-rel pointer">Daily</label>
+                    </div>
+                    <div class="date mb-15 pl-10 d-flex ali-cen">
+                        <input type="radio" name="time" id="two">
+                        <label for="two" class="p-rel pointer">Weekly</label>
+                    </div>
+                    <div class="date mb-15 pl-10 d-flex ali-cen">
+                        <input type="radio" name="time" id="three">
+                        <label for="three" class="p-rel pointer">Monthly</label>
+                    </div>
+                    <div class="plans pt-20 eee-t-1 d-flex ali-cen tex-cen f-wrap-m">
+                        <input type="radio" name="location" id="mega">
+                        <div class="plan mb-15 mr-10 rad-10 w-full">
+                            <label for="mega" class="d-block m-15 pointer">
+                                <i class="fa-solid fa-server d-block mb-10"></i>
+                                Megaman
+                            </label>
+                        </div>
+                        <input type="radio" name="location" id="zero" checked>
+                        <div class="plan mb-15 mr-10 rad-10 w-full">
+                            <label for="zero" class="d-block m-15 pointer">
+                                <i class="fa-solid fa-server d-block mb-10"></i>
+                                Zero                                
+                            </label>
+                        </div>
+                        <input type="radio" name="location" id="sigma">
+                        <div class="plan mb-15 mr-10 rad-10 w-full">
+                            <label for="sigma" class="d-block m-15 pointer">
+                                <i class="fa-solid fa-server d-block mb-10"></i>
+                                Sigma                       
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
